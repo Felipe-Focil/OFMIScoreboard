@@ -7,7 +7,6 @@ import FeaturedContests from "./components/FeaturedContests";
 function App() {
   return (
     <>
-      <h1>OFMI</h1>
       <FeaturedContests />
     </>
   );
