@@ -4,6 +4,24 @@ import EGOI24 from "../assets/EGOI24.jpg";
 import OFMI22 from "../assets/OFMI22.jpg";
 
 export const Contests = {
+  "OFMI2025":{
+    title: "Cuarta OFMI",
+    organizer: "OFMI",
+    img: OFMI22,
+    content: "Examen Nacional de la Olimpiada Femenil Mexicana de Informatica 2024-2025",
+    alternative : "OFMI 2025",
+    links : [
+      "https://omegaup.com/arena/4AOFMIDIA1/scoreboard/QV3gsHbzdYMJjrfwx64crNBeaRDc4V",
+      "https://omegaup.com/arena/4AOFMIDIA2/scoreboard/fhEKmK7tfscm5ZEH9XLQ3Uzw5K8tqj"
+    ],
+    config : {
+      gold : 0,
+      silver : 0,
+      bronze : 0,
+      criteria : "points",
+      diploma : true,
+    }
+  },
   "EGOI2024":{
     title: "Selectivo EGOI 2024",
     organizer: "OFMI",
